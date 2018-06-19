@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+              xmlns:tools="http://schemas.android.com/tools"
+              android:layout_width="match_parent"
+              android:layout_height="match_parent"
+              android:orientation="vertical"
+              tools:context="com.hangyjx.syygzapp.fragment.ScanFragment">
+
+    <include layout="@layout/custom_title"/>
+    <!-- TODO: Update blank fragment layout -->
+    <RelativeLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+        <!--<Button-->
+            <!--android:id="@+id/btn_1"-->
+            <!--android:layout_width="wrap_content"-->
+            <!--android:layout_height="wrap_content"-->
+            <!--android:text="jlkjoi"/>-->
+        <TextView
+            android:id="@+id/tv_enter_barcode"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentRight="true"
+            android:layout_marginRight="9dp"
+            android:layout_marginTop="12dp"
+            android:drawableLeft="@mipmap/barcode"
+            android:drawablePadding="2dp"
+            android:text="@string/enter_barcode"
+            android:textColor="@color/colorPrimary"
+            android:textSize="15sp"/>
+
+        <ImageView
+            android:id="@+id/iv_scan"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_centerInParent="true"
+            android:src="@drawable/scan_selector"/>
+        <TextView
+            android:id="@+id/test_request"
+            android:layout_width="100dp"
+            android:layout_height="100dp"
+            android:background="#f00"
+            android:gravity="center"
+            android:text="TestRequest"/>
+    </RelativeLayout>
+
+</LinearLayout>

@@ -1,0 +1,149 @@
+<?xml version="1.0" encoding="utf-8"?>
+<items version="2" >
+
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\json_simple-1.1.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e303a03d04e6788dddfa3655272580ae0fc13bb">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\json_simple-1.1_398a60a53802d48bb9f5fd350e64fc7383eeda11\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\SocialSDK_WeChat_Simplify.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fedb13cbfab727c73c9b2d91f5f1b8ab9c91980f">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_WeChat_Simplify_17e11e3afd7a583c803b5e705b711e623fc8ec05\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\build\intermediates\incremental-classes\debug\instant-run-bootstrap.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="f926ed219aef8d84f5f59af0a5ca0fdf9b90f4eb">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run-bootstrap_a281aacd4759aab6bcc2456cf27e9bb647d6d98e\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\wechat-sdk-android-with-mta-1.1.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="379056fcb09a02bd0db722be359695ad88beb04d">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\wechat-sdk-android-with-mta-1.1.6_20616213633e191dffac8ba46dda0d76bad493ec\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\zxing.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="69ab751723c7f7c8a01fddb1d169a93160fadca7">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\zxing_5493a5ed7d24f85e2fab119cb7422ccb0284d740\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\umeng_shareboard_widget.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="4b1a59e4c996ee354c2db160f4b1ad3b0e94aab5">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_shareboard_widget_72333ee4b7cf3e171287cb82a2015675812575fa\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\umeng_social_tool.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="87ef211d4ef0c257c7d040fbaa411832330eb9aa">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_tool_81858edaed7a72d971d3ba3f1b23224f4c57897f\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\umeng_social_net.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="9a2fc3d30ce3cb03014a373b1d5c8b5795334271">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_net_c9a3c96b8aa9f350a5d0c16aa35e22fe06a91349\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\umeng_social_shareboard.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="61fdc2bd1237079ae596f6cc93b6a5807d23940e">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_shareboard_37e4ef17ccc1048ce1be2dd9ae9ef22240124b66\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\SocialSDK_WeiXin_Full.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="5e19745719071783aefb3748c1b5bafb19c86bd1">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\SocialSDK_WeiXin_Full_9eca45e2d1be586a364e6bfbad2171877d6c5e61\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\umeng_social_api.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="b680704ac08a1203f713be45e7c95653bb7497fe">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_api_82a0f9bc390940feb34e34b001c81ede167ccd28\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\volley.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c4c0b8d237757dce06738a695d8b5c09d0ea2574">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\volley_835de2fd71a95eb742f2e8639bceec96794beb7c\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\Baidu_Mtj_3.8.0.6.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="01f17dd265be198be62d5545644f41982ff52be3">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\Baidu_Mtj_3.8.0.6_830f48ef331d2cbd28f2bcb34ad6004811312741\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\tbs_sdk_thirdapp_v3.5.0.1004_43500_sharewithdownload_withoutGame_obfs_20170801_113025.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="c166ff080c709e6225979156d12dcdc669226413">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\tbs_sdk_thirdapp_v3.5.0.1004_43500_sharewithdownload_withoutGame_obfs_20170801_113025_628dc89afe006c0ea8a3a330e53f9957c9fb123d\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\build\intermediates\incremental-runtime-classes\debug\instant-run.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="3be78ebc2706b2e1fe2f12d5726887a92d6c183b">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\10000\instant-run_d2cb2637f4bd09a0de3283ff3db63806b20bc95a\classes.dex" />
+    </item>
+    <item
+        is-multidex="true"
+        jar="E:\newApp\app\libs\umeng_social_shareview.jar"
+        jumboMode="true"
+        optimize="true"
+        revision="25.0.2"
+        sha1="fd6e56a1bbd965cee6fda6021ee764c81b4723b6">
+        <dex dex="E:\newApp\app\build\intermediates\transforms\dex\debug\folders\1000\2\umeng_social_shareview_a285081b2465bdc0d0e1854bed83e4cf1a356eb3\classes.dex" />
+    </item>
+
+</items>

@@ -1,0 +1,67 @@
+<resources>
+    <string name="app_name">云追溯</string>
+
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="index">营养食品</string>
+    <string name="scan">营养分析</string>
+    <string name="about">食无忧</string>
+    <string name="enter_barcode">录入条形码</string>
+    <string name="back">再按一次退出</string>
+    <string name="download_success">下载成功</string>
+    <string name="download_progress">下载进度</string>
+    <!-- TODO: Remove or change this placeholder text -->
+    <string name="hello_blank_fragment">Hello blank fragment</string>
+    <string name="filepath">com.hangyjx.syygzapp.provider</string>
+
+    <string name="facebook_app_id">1266254913438718</string>
+
+
+    <string name="umeng_update_content">版本号：6.4.5\n1.更新了QQ精简版与完整版支持轻聊\n2.更新了新浪SDK，修复了授权在部分rom上不能唤起客户端的bug\n3.有道云笔记更新为官方SDK</string>
+    <string name="umeng_home_title">U-Share产品Demo</string>
+    <string name="umeng_home_update">新版更新内容</string>
+    <string name="umeng_share_title">分享</string>
+    <string name="umeng_auth_title">授权</string>
+    <string name="umeng_delauth_title">删除授权</string>
+    <string name="umeng_getinfo_title">获取用户信息</string>
+    <string name="umeng_check_title">自检工具</string>
+    <string name="umeng_menu_title">分享菜单模板</string>
+
+    <string name="umeng_check_sign">检查签名</string>
+    <string name="umeng_check_sina">检查新浪</string>
+    <string name="umeng_check_wx">检查微信</string>
+    <string name="umeng_check_alipay">检查支付宝</string>
+    <string name="umeng_check_qq">检查qq</string>
+    <string name="umeng_check_fb">检查facebook</string>
+    <string name="umeng_check_vk">vkontakte</string>
+    <string name="umeng_choose_style">选择分享类型</string>
+
+    <string name="umeng_sharebutton_copy">复制文本</string>
+    <string name="umeng_sharebutton_copyurl">复制连接</string>
+
+
+    <string name="action_settings">Settings</string>
+    <string name="cancel">取消</string>
+    <string name="use_password">Use password</string>
+    <string name="sign_in">登录</string>
+    <string name="app_down">下载</string>
+    <string name="ok">确定</string>
+    <string name="name">用户名</string>
+    <string name="password">密码</string>
+    <string name="fingerprint_description">确认指纹然后继续</string>
+    <string name="fingerprint_hint">请触摸指纹感应器</string>
+    <string name="password_description">请输入你的用户名和密码</string>
+    <string name="purchase">Purchase</string>
+    <string name="fingerprint_not_recognized">指纹识别失败. 再试一次</string>
+    <string name="fingerprint_success">指纹识别成功</string>
+    <string name="item_title">White Mesh Pluto Backpack</string>
+    <string name="item_price">$62.68</string>
+    <string name="item_description">Mesh backpack in white. Black textile trim throughout.</string>
+    <string name="purchase_done">Purchase successful</string>
+    <string name="purchase_fail">Purchase failed</string>
+    <string name="new_fingerprint_enrolled_description">A new fingerprint was added to this device, so your password is required.</string>
+    <string name="use_fingerprint_in_future">Use fingerprint in the future</string>
+    <string name="use_fingerprint_to_authenticate_title">Use fingerprint to authenticate</string>
+    <string name="use_fingerprint_to_authenticate_key" >use_fingerprint_to_authenticate_key</string>
+    <string name="description_bugdroid_icon">Android bugdroid image</string>
+    <string name="description_fingerprint_icon">Fingerprint icon</string>
+</resources>

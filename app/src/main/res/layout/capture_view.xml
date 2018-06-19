@@ -1,0 +1,189 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+             xmlns:oncon="http://schemas.android.com/apk/res-auto"
+             android:layout_width="fill_parent"
+             android:layout_height="fill_parent">
+
+    <SurfaceView
+        android:id="@+id/preview_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <TextView
+        android:id="@+id/tv_all_tip"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center_horizontal|bottom"
+        android:layout_marginBottom="40dp"
+        android:alpha="0.6"
+        android:text="请对准食品条码"
+        android:textColor="#fff"
+        android:visibility="gone"
+        />
+
+    <com.hangyjx.syygzapp.zxing.core.ViewfinderView
+        android:id="@+id/viewfinder_view"
+        android:layout_width="fill_parent"
+        android:layout_height="fill_parent"/>
+
+    <!--<android.support.v4.view.ViewPager-->
+    <!--android:id="@+id/viewpager"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv_camera"-->
+    <!--android:layout_width="wrap_content"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="center_horizontal|bottom"-->
+    <!--android:text="支持二维码，条形码,防伪码"-->
+    <!--android:layout_marginBottom="180dp"-->
+    <!--android:background="#00000000"-->
+    <!--/>-->
+    <!--<ImageButton-->
+        <!--android:id="@+id/ib_camera"-->
+        <!--android:layout_width="wrap_content"-->
+        <!--android:layout_height="wrap_content"-->
+        <!--android:layout_gravity="center_horizontal|bottom"-->
+        <!--android:layout_marginBottom="120dp"-->
+        <!--android:background="#00000000"-->
+        <!--android:src="@mipmap/icon_light"-->
+        <!--/>-->
+
+    <RelativeLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/black"
+        android:orientation="horizontal">
+
+        <ImageView
+            android:id="@+id/common_title_TV_left"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_alignParentLeft="true"
+            android:layout_centerVertical="true"
+            android:gravity="center_vertical"
+            android:padding="12dp"
+            android:src="@mipmap/title_back"/>
+
+        <TextView
+            android:id="@+id/textGoodsTabTitleName"
+            android:layout_width="fill_parent"
+            android:layout_height="45dp"
+            android:layout_centerVertical="true"
+            android:gravity="center"
+            android:padding="5dip"
+            android:text=""
+            android:textColor="#ffffff"
+            android:textSize="18dp"/>
+        <TextView
+            android:id="@+id/tv_enter_barcode"
+            android:layout_width="wrap_content"
+            android:layout_height="45dp"
+            android:layout_alignParentRight="true"
+            android:padding="5dip"
+            android:gravity="center"
+            android:text="录入条形码"
+            android:textColor="#ffffff"
+            android:textSize="12dp"/>
+    </RelativeLayout>
+
+    <LinearLayout
+        android:layout_width="fill_parent"
+        android:layout_height="wrap_content"
+        android:layout_gravity="bottom"
+        android:layout_marginBottom="30dip"
+        android:orientation="vertical"
+        android:visibility="gone"
+        >
+
+        <TextView
+            android:id="@+id/status_view"
+            android:layout_width="wrap_content"
+            android:layout_height="40dp"
+            android:layout_gravity="center_horizontal"
+            android:layout_margin="5dp"
+            android:background="#00000000"
+            android:text="请将二维码置于方框中"
+            android:textColor="#ffffffff"
+            android:textSize="15sp"/>
+
+        <!--
+        <RelativeLayout
+            android:layout_width="fill_parent"
+            android:layout_height="fill_parent"
+            android:background="@drawable/common_title_bg" 
+            >
+
+            <Button
+                android:id="@+id/from_gallery"
+                android:layout_width="100dp"
+                android:layout_height="40dp"
+                android:layout_centerInParent="true"
+                android:layout_marginLeft="5dp"
+                android:background="@drawable/ic_but_bg"
+                android:paddingLeft="5dp"
+                android:paddingRight="5dp"
+                android:textSize="18sp"
+                android:text="@string/from_gallery"
+                android:textColor="@android:color/white" />
+        </RelativeLayout>
+        -->
+    </LinearLayout>
+    <!--<LinearLayout-->
+    <!--android:id="@+id/ll_bottom"-->
+    <!--android:layout_width="match_parent"-->
+    <!--android:layout_height="wrap_content"-->
+    <!--android:layout_gravity="bottom"-->
+    <!--android:orientation="horizontal"-->
+    <!--android:gravity="center_vertical"-->
+    <!--android:paddingBottom="10dp"-->
+    <!--android:paddingTop="10dp"-->
+    <!--android:background="#000"-->
+    <!--android:alpha="0.8"-->
+    <!--&gt;-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_input"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:layout_weight="1"-->
+    <!--android:text="手动输入"-->
+    <!--android:drawableTop="@mipmap/code_icon1"-->
+    <!--android:drawablePadding="5dp"-->
+    <!--android:gravity="center"-->
+    <!--android:textColor="#474948"-->
+    <!--/>-->
+
+    <!--<TextView-->
+    <!--android:id="@+id/tv_picture"-->
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:layout_weight="1"-->
+    <!--android:text="图片"-->
+    <!--android:drawableTop="@mipmap/code_icon2"-->
+    <!--android:drawablePadding="5dp"-->
+    <!--android:textColor="#474948"-->
+
+    <!--android:gravity="center"-->
+    <!--android:visibility="gone"-->
+    <!--/>-->
+    <!--<TextView-->
+    <!--android:id="@+id/tv_chinese"-->
+
+    <!--android:layout_width="0dp"-->
+    <!--android:layout_height="wrap_content"-->
+
+    <!--android:layout_weight="1"-->
+    <!--android:text="中国追溯码"-->
+    <!--android:drawableTop="@mipmap/code_icon3"-->
+    <!--android:drawablePadding="5dp"-->
+    <!--android:textColor="#474948"-->
+
+    <!--android:gravity="center"-->
+    <!--/>-->
+    <!--</LinearLayout>-->
+</FrameLayout>
